@@ -3,32 +3,32 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Project One",
+    title: "3D Portfolio",
     description:
-      "A modern web application built with React and TypeScript, featuring real-time data synchronization.",
-    tags: ["React", "TypeScript", "Tailwind CSS"],
-    image: "/placeholder.svg",
-    github: "https://github.com",
-    live: "https://example.com",
+      "An interactive 3D portfolio built with Three.js and GSAP, featuring smooth animations and a modern UI to showcase my work with style and motion.(It's still in progress)",
+    tags: ["React", "Three.js", "GSAP", "JavaScript", "Tailwind CSS"],
+    image: "/3d-portfolio.png",
+    github: "https://github.com/dhruvtalukdar/My-PortFolio-3d.git",
+    // live: "https://example.com",
   },
   {
-    title: "Project Two",
+    title: "DevAI",
     description:
-      "An e-commerce platform with a focus on user experience and performance optimization.",
-    tags: ["Next.js", "PostgreSQL", "Stripe"],
-    image: "/placeholder.svg",
-    github: "https://github.com",
-    live: "https://example.com",
+      "An AI chatbot that teaches MERN stack concepts through engaging stories, built with Gemini API and custom prompt engineering.",
+    tags: ["ExpressJs", "MongoDB", "Gemini API", "Node.js", "React"],
+    image: "/DevAi.png",
+    github: "https://github.com/dhruvtalukdar/DevAi-Refactored.git",
+    // live: "https://example.com",
   },
-  {
-    title: "Project Three",
-    description:
-      "A responsive dashboard application with data visualization and analytics.",
-    tags: ["React", "D3.js", "Material UI"],
-    image: "/placeholder.svg",
-    github: "https://github.com",
-    live: "https://example.com",
-  },
+  // {
+  //   title: "Project Three",
+  //   description:
+  //     "A responsive dashboard application with data visualization and analytics.",
+  //   tags: ["React", "D3.js", "Material UI"],
+  //   image: "/placeholder.svg",
+  //   github: "https://github.com",
+  //   live: "https://example.com",
+  // },
 ];
 
 const Projects = () => {
@@ -74,7 +74,7 @@ const Projects = () => {
                     <Github size={16} />
                     Code
                   </a>
-                  <a
+                  {/* <a
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -82,7 +82,7 @@ const Projects = () => {
                   >
                     <ExternalLink size={16} />
                     Live Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

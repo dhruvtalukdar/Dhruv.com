@@ -16,7 +16,7 @@ const Index = () => {
         <Contact />
       </main>
       <footer className="py-6 text-center text-sm text-muted-foreground">
-        <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} DhrubaJ T. All rights reserved.</p>
       </footer>
     </div>
   );

@@ -7,7 +7,15 @@ const About = () => {
     "Tailwind CSS",
     "Node.js",
     "Next.js",
-    "GraphQL",
+    "C# .Net",
+    "Express.js",
+    "MongoDB",
+    "PostgreSQL",
+    "Gemini API",
+    "Three.js",
+    "GSAP",
+    
+
   ];
 
   return (
@@ -19,10 +27,7 @@ const About = () => {
           </h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-muted-foreground mb-6">
-              I'm a passionate frontend developer with a keen eye for design and a
-              love for creating seamless user experiences. With years of experience
-              in web development, I specialize in building modern, responsive
-              applications that make an impact.
+            I specialize in building responsive web apps with clean design and cleaner code (until it breaks in production). With a love for frontend polish and backend logic, I bring both sides of the stack together like peanut butter and code.
             </p>
             <div className="mt-12">
               <h3 className="text-xl font-semibold mb-4">Skills</h3>

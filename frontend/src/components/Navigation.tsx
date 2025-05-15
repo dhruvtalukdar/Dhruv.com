@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-import { Menu, X, Sun, Moon } from "lucide-react";
+import { Menu, X, Sun, Moon, Download } from "lucide-react";
 import { Toggle } from "@/components/ui/toggle";
 
 const Navigation = () => {
@@ -33,7 +33,7 @@ const Navigation = () => {
     { href: "#about", label: "About" },
     { href: "#projects", label: "Projects" },
     { href: "#contact", label: "Contact" },
-    { href: "#resume", label: "Resume" },
+    { href: "/resume.pdf", label: "Resume", download: true },
   ];
 
   return (

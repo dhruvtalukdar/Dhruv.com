@@ -14,7 +14,7 @@ const Hero = () => {
               Hi! I'm Dhrubajyoti Talukdar
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 fade-in-up">
-              Frontend Developer crafting beautiful and functional web applications
+            Developer Who Talks to APIs More Than People | Full-Stack, Full-Speed, Half-Sleep
             </p>
             <div className="fade-in-up" style={{ animationDelay: "200ms" }}>
               <a

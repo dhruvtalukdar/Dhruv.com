@@ -113,7 +113,7 @@ const Contact = () => {
               className="inline-flex items-center mt-2 text-primary hover:text-primary/80 transition-colors"
             >
               <Mail size={18} className="mr-2" />
-              your.email@example.com
+              dhrubajyotitalukdar10@gmail.com
             </a>
           </div>
         </div>
